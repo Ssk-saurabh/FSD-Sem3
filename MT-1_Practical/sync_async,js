@@ -1,0 +1,17 @@
+
+console.log("Synchronous Programming");
+
+console.log("First");
+console.log("Second");
+console.log("Third");
+
+console.log("Asynchronous Programming");
+
+console.log("First");
+
+setTimeout(() => {
+    console.log("Second");
+}, 2000);
+
+console.log("Third");
+console.log("Fourth");
